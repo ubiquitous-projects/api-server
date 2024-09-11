@@ -1,0 +1,38 @@
+{
+    "name": "api-server",
+    "version": "1.0.0",
+    "description": "A NodeJS-based backend for proxy-serving API keys.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index",
+        "prod": "node index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ubiquitous-projects/api-server.git"
+    },
+    "keywords": [
+        "api",
+        "server",
+        "api-server"
+    ],
+    "author": "Michael K Macharia",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ubiquitous-projects/api-server/issues"
+    },
+    "homepage": "https://github.com/ubiquitous-projects/api-server#readme",
+    "dependencies": {
+        "apicache": "^1.6.3",
+        "colors": "^1.4.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "express-rate-limit": "^6.4.0",
+        "needle": "^3.1.0",
+        "url": "^0.11.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.18"
+    }
+}
